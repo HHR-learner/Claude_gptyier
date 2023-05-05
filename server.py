@@ -293,8 +293,5 @@ class stream:
 
 
 if __name__ == "__main__":
-    import os
-    #网络代理（如果是连接实验室的电脑则不用代理）
-    os.environ["http_proxy"] = "http://127.0.0.1:7890"
-    os.environ["https_proxy"] = "http://127.0.0.1:7890"
+
     app.run()
