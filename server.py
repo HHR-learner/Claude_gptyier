@@ -17,13 +17,13 @@ urls = (
 
 headers = {
         'Host': 'yierco.slack.com',
-        'Cookie': '',
+        'Cookie': 'x=a363001cfd1849be739f45d4ea94d99e.1683296136; d=xoxd-1I6hZnXXuqtY1h0mTyZ14zBEzedNXkiJ%2FkrCzSGRNBiomJaLJNHzxvBuTA%2FrFZT3vEWOeHmlqibv1g3W7beAREUY43YIzmpyhcXfZCvEApneIxacpGmnvrpzQuPZ6okNYEuHwaK8hf3dlx24NkvexoaZ7bURIECdoTsWu2cmw1sEOh49EtyD5ET%2BIA%3D%3D; d-s=1683296149; lc=1683296149; _gcl_au=1.1.438343165.1683296151; _ga=GA1.2.644746821.1683296151; _gid=GA1.2.1135986881.1683296151; b=.a363001cfd1849be739f45d4ea94d99e; i18n_locale=zh-CN; utm=%7B%22utm_source%22%3A%22in-prod%22%2C%22utm_medium%22%3A%22inprod-btn_app_install-index-click%22%7D; OptanonConsent=isGpcEnabled=0&datestamp=Fri+May+05+2023+22%3A18%3A24+GMT%2B0800+(%E4%B8%AD%E5%9B%BD%E6%A0%87%E5%87%86%E6%97%B6%E9%97%B4)&version=202211.1.0&isIABGlobal=false&hosts=&consentId=3ec34c9c-58cd-4382-aef7-99f0b643f07d&interactionCount=1&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C2%3A0%2C4%3A0&AwaitingReconsent=false',
     }
 
-token=""
+token="xoxc-5216124951045-5212459913558-5204528378663-2dd1f752da78dd1cf2c27b20b0b80a56e21c81377eb4ba50c8d55065a8ff84ea"
 
-Claude_userid=""
-fangjian_id=""
+Claude_userid="U056HHR8BA8"
+fangjian_id="C056EU248D9"
 
 app = web.application(urls, globals())
 app.debug = False
