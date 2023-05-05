@@ -33,7 +33,7 @@ render = web.template.render('templates')
 class gptyier:
     def GET(self):
         web.header('Content-Type', 'text/html; charset=utf-8')
-        with open('gpt.html', 'r',encoding='utf-8') as file:
+        with open('index.html', 'r',encoding='utf-8') as file:
             html_content = file.read()
         return html_content
 
@@ -293,4 +293,8 @@ class stream:
 
 
 if __name__ == "__main__":
+    import os
+    #网络代理（如果是连接实验室的电脑则不用代理）
+    os.environ["http_proxy"] = "http://127.0.0.1:7890"
+    os.environ["https_proxy"] = "http://127.0.0.1:7890"
     app.run()
